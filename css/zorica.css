@@ -1,0 +1,113 @@
+html {overflow-x: hidden;}
+html,body {height: 100%;} 
+body {
+  font-size: 16px;
+  color: #818181;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus , a:active {
+  outline: none;
+}
+.second-font {
+  font-family: Georgia, serif;
+}
+.headline {
+  font-size: 4em;
+}
+.small-text , .headline {
+  line-height: 1.1;
+}
+.fa-envelope , .fa-user{
+  font-size: 18px;
+  color: #818181;
+}
+.first-wrapper {
+  background-color: #000000;
+  background: url("../img/headbck.jpg");
+  background: linear-gradient(95deg, rgba(0, 0, 0, .92),rgba(0, 0, 0, .92)), url('../img/headbck.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  display: table;
+  min-height: 100%;
+}
+.head-align {
+  align-items: center;
+}
+h3 span {
+  font-weight: 400;
+}
+.input-group-text , .form-control {
+  border: none;
+}
+.my-brand {
+  font-size: 1.5em;
+}
+.invest .row {
+  align-items: flex-end;
+}
+.accord-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem 2.75rem;
+}
+footer .nav li a {
+  text-decoration: none;
+  color: #818181;
+}
+footer .nav li a:hover {
+  color: #e0e0e0;
+  transition: all 0.3s;
+}
+.questions .text-left {
+  margin: 1rem 0;
+}
+.invest-text {
+  padding: 5px 15px;
+}
+.fix-height{line-height: 40px;}
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .accord-body {
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .headline {
+    font-size: 5.5em;
+    line-height: 1;
+  }
+  .invest img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .invest-col img, .invest-col h3 { 
+    transition: all .1s;
+  }
+  .invest-col:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all .7s;
+  }
+  .invest-col:hover h3 {
+    color: #28b45d;
+    font-size: 2rem;
+    transition: all .2s;
+  } 
+  .footer-navigation {
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .headline {
+    font-size: 7em;
+  }
+}
+

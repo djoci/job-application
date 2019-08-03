@@ -1,0 +1,40 @@
+.my-font, .my-font a, .small-text a {
+  color: #28b45d;
+}
+
+.headline {
+  color: #434343;
+}
+
+.btn-success {
+  background-color: #28b45d;
+}
+
+.invest {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.invest h2 {
+  color: #28b45d;
+}
+
+.questions {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background-color: #28b45d;
+  color: #ffffff;
+}
+
+.questions .btn-light {
+  border-radius: 0.5rem;
+  color: #28b45d;
+}
+
+footer {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+

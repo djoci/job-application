@@ -1,0 +1,38 @@
+$myColor: #28b45d;
+$myGray: rgba(0, 0, 0, .87);
+$headLineGray: #434343;
+
+.my-font , .my-font a , .small-text a {
+    color: $myColor;
+}
+.headline {
+    color: $headLineGray;
+}
+.btn-success {
+  background-color: $myColor;
+}
+
+@mixin section-part {
+    padding: 2.5rem 1rem;
+    text-align: center;
+  }
+.invest {
+    @include section-part;
+    background-color: #ffffff;
+  }
+  .invest h2 {
+      color: $myColor;
+  }
+  .questions {
+    @include section-part;
+    background-color: $myColor;
+    color: #ffffff;
+  }
+  .questions .btn-light {
+    border-radius: 0.5rem;
+    color: $myColor;
+  }
+  footer {
+    @include section-part;
+    background-color: $myGray;
+  }
